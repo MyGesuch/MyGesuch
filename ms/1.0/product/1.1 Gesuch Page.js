@@ -1,5 +1,3 @@
-<script>
-
 var myUrl = new URL(document.location.href);
 var myParam = myUrl.searchParams.get("id") ;
 let xanoUrl = new URL('https://api.mygesuch.de/api:3_z_7Zl_/11/suche_page/v7/' + myParam);
@@ -249,4 +247,4 @@ async function generateHtmlSlots(pros_id, search_id) {
     }
 }
 
-</script>
+
